@@ -4,12 +4,12 @@
 pipeline-bundles:
   ${REGISTRY}/acceptance/bundle:
     - digest: sha256:${REGISTRY_acceptance/bundle:tag_DIGEST}
-      effective_on: "${TIMESTAMP}"
+      effective_on: "2024-01-04T00:00:00Z"
       tag: tag
 task-bundles:
   ${REGISTRY}/acceptance/bundle:
     - digest: sha256:${REGISTRY_acceptance/bundle:tag_DIGEST}
-      effective_on: "${TIMESTAMP}"
+      effective_on: "2024-01-04T00:00:00Z"
       tag: tag
 
 ---
@@ -48,7 +48,7 @@ task-bundles:
 pipeline-bundles:
   ${REGISTRY}/acceptance/bundle:
     - digest: sha256:${REGISTRY_acceptance/bundle:tag_DIGEST}
-      effective_on: "${TIMESTAMP}"
+      effective_on: "2024-01-04T00:00:00Z"
       tag: tag
     - digest: sha256:96e96850c6561bdd7514d0f9849e3cdb2f3c284480663128a438537f602ff64e
       effective_on: "${TIMESTAMP}"
@@ -56,7 +56,7 @@ pipeline-bundles:
 task-bundles:
   ${REGISTRY}/acceptance/bundle:
     - digest: sha256:${REGISTRY_acceptance/bundle:tag_DIGEST}
-      effective_on: "${TIMESTAMP}"
+      effective_on: "2024-01-04T00:00:00Z"
       tag: tag
     - digest: sha256:96e96850c6561bdd7514d0f9849e3cdb2f3c284480663128a438537f602ff64e
       effective_on: "${TIMESTAMP}"
